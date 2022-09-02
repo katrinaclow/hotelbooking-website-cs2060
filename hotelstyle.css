@@ -1,0 +1,61 @@
+body {
+    background-image: url("DSC05072 2-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: none;
+    opacity: 1;
+    margin: 15px;
+    font-size:100px;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(137,78,47);
+    text-shadow: 2px 5px 5px rgb(184,138,102); 
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 40px;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(102,72,106);
+    text-shadow: 2px 2px 2px rgb(149,130,142); 
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: bold;
+    font-family:fantasy;
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 2px rgb(184,138,102); 
+}
+
+input[type=button] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102,72,106);
+    color: white;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: 0.5px;
+    cursor: pointer;
+    text-align: center;
+}
+input[type=button]:hover {
+    background-color: rgb(184,138,102);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
